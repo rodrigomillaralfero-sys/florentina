@@ -1,0 +1,27 @@
+[project]
+name = "florentina"
+version = "0.1.0"
+description = "Florentina: asistente de operaciones de i-CAR. Motor propio (núcleo genérico en core/) y su instancia en instances/."
+requires-python = ">=3.12"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "httpx>=0.27",
+    "python-dotenv>=1",
+    "cryptography>=43",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=1.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["core*", "instances*", "adapters*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
