@@ -61,7 +61,7 @@ Solo lo que Claude no puede hacer por él.
 
 | Qué | Bloquea a | Estado |
 | --- | --- | --- |
-| Crear el repo privado y vacío `rodrigomillaralfero-sys/florentina` en GitHub | Subir FL0 | Pedido el 16-11 |
+| Crear el repo privado y vacío `rodrigomillaralfero-sys/florentina` en GitHub | Subir FL0 | Hecho (16-11) |
 | Validar FL0 para unir `fl0-costura` a `main` | FL1 | Pendiente |
 | Pedir la cuenta de servicio de Drive (solo lectura, carpeta Florentina) | FL2 | Sin pedir |
 | Pedir a la comercial sus 15–20 preguntas operativas más frecuentes | FL3 | Sin pedir |
