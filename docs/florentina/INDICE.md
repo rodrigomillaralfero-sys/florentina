@@ -31,7 +31,7 @@ Es un proyecto propio, con repo, base y bot propios (D19). Su motor nació de la
 
 ## 3. Realidad de tiempos (16-11)
 
-Los sprints los ejecuta Claude: el código de un sprint es del orden de un día (FL0 se armó en una tarde). El calendario no lo manda la construcción; lo mandan tres relojes:
+Los sprints los ejecuta Claude: el código de un sprint es del orden de un día (FL0 se armó y validó en una tarde). El calendario no lo manda la construcción; lo mandan tres relojes:
 
 1. **Decisiones y validación de Rodrigo**, de a una, antes de construir.
 2. **Gestiones de terceros**: la cuenta de servicio de solo lectura sobre Drive depende de quien administra el Workspace de i-CAR.
@@ -45,8 +45,8 @@ El detalle de cada sprint (para qué, alcance, criterio de término, decisiones)
 
 | Sprint | Nombre | Estado | Rama | Cierre |
 | --- | --- | --- | --- | --- |
-| FL0 | Costura | **Construido · espera validación de Rodrigo** | `fl0-costura` | 16-11 (por validar) |
-| FL1 | Casa propia | Siguiente | — | — |
+| FL0 | Costura | Cerrado | `fl0-costura` | 16-11 |
+| FL1 | Casa propia | **Siguiente** | `fl1-casa-propia` | — |
 | FL2 | Biblioteca | Pendiente · espera cuenta de servicio de Drive | — | — |
 | FL3 | Bake-off | Pendiente · espera preguntas de la comercial | — | — |
 | FL4 | Primera respuesta | Pendiente · espera personalidad y pendientes P/T | — | — |
@@ -62,7 +62,7 @@ Solo lo que Claude no puede hacer por él.
 | Qué | Bloquea a | Estado |
 | --- | --- | --- |
 | Crear el repo privado y vacío `rodrigomillaralfero-sys/florentina` en GitHub | Subir FL0 | Hecho (16-11) |
-| Validar FL0 para unir `fl0-costura` a `main` | FL1 | Pendiente |
+| Validar FL0 para unir `fl0-costura` a `main` | FL1 | Hecho (16-11) |
 | Pedir la cuenta de servicio de Drive (solo lectura, carpeta Florentina) | FL2 | Sin pedir |
 | Pedir a la comercial sus 15–20 preguntas operativas más frecuentes | FL3 | Sin pedir |
 | Definir la personalidad de Florentina | FL4 | Abierto |

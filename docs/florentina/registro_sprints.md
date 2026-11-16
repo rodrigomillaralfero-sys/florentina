@@ -8,7 +8,7 @@ estado: vigente
 
 # Florentina — Registro de sprints
 
-## FL0 · Costura — 16-11-2026 (construido; espera validación de Rodrigo)
+## FL0 · Costura — 16-11-2026 (cerrado y validado por Rodrigo)
 
 **Qué cambió en el camino.** El sprint abrió con el alcance original (mover el M2 de Vera fuera de su núcleo, interruptores por pieza, unir ramas del repo de Vera). Rodrigo lo corrigió: Florentina no es Vera, no necesita nada de ese experimento y vive totalmente fuera de él. Quedaron D19 (repo propio), D20 (FL0 trae solo lo que Florentina usa) y D21 (usuarias distintas y patrones son piezas propias).
 
@@ -19,7 +19,7 @@ estado: vigente
 - Instancia mínima (`instances/minima/`) armada solo con el contrato.
 - Documentación movida a este repo y actualizada: índice, hoja de ruta (FL0 rehecho, FL1 ajustado), decisiones D19–D21, `origen_motor.md` (reemplaza al puente), este registro.
 
-**Ajuste de criterio a validar:** el adaptador de Gemini venía con los filtros de seguridad apagados (`BLOCK_NONE`), cosa que necesitaba Vera. Para Florentina quedan los filtros por defecto de Google.
+**Ajuste de criterio, validado (D22):** el adaptador de Gemini venía con los filtros de seguridad apagados (`BLOCK_NONE`), cosa que necesitaba Vera. Para Florentina quedan los filtros por defecto de Google.
 
 **Qué quedó fuera**
 - Canal de Telegram, configuración de `instances/florentina/`, Dockerfile y hosting: FL1.

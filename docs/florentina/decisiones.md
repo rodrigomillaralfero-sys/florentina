@@ -44,6 +44,7 @@ Nov 13, 2026 · v01 (actualizado 16-11)
 | D19 | 16-11 | Repo propio | Florentina vive totalmente fuera de Vera: repo propio `rodrigomillaralfero-sys/florentina` (privado), con su propia copia de las piezas genéricas del motor. No se sincroniza con el motor de Vera. Reemplaza la parte de D13 sobre el código |
 | D20 | 16-11 | Alcance de FL0 | Florentina no necesita Estratega, desafíos, medallas ni nada del experimento. FL0 trae solo las piezas que usa; mover el M2 dentro del repo de Vera y los interruptores por pieza dejan de ser parte de Florentina. Vera no se toca |
 | D21 | 16-11 | Lo que Vera no tiene | Reconocer a distintas usuarias y estudiar patrones de problemas son piezas propias de Florentina, a diseñar desde cero (FL6 y FL7). El modelo de datos las prevé desde la base: todo va con su persona y su fecha |
+| D22 | 16-11 | Filtros de seguridad del modelo | Gemini queda con los filtros de seguridad por defecto de Google (el adaptador heredado los apagaba para Vera). Rodrigo duda que se tensen con el uso de Florentina, pero se mantienen |
 
 ## Consecuencias técnicas de D6–D7
 
