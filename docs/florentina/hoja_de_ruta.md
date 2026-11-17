@@ -91,6 +91,9 @@ Usuarias por etapa: etapa 2, la comercial; etapa 3, se suma la jefa de customer 
 - Filtro de acceso aplicado por código (todo "interna" en el piloto; sin marca = restringida).
 - Carga parcial por columnas (tarifas: solo precios).
 - Lectura de imágenes dentro de PDF y presentaciones (pendiente P16).
+- Estándar KCS liviano (D29): ficha con estructura fija, estados (borrador → aprobada → a revisar → archivada) y estándar de contenido escrito, que redacta Claude y aprueba Rodrigo.
+- Índice vivo generado por el código desde las fichas, con lista de novedades; el índice G00–G13 es el esqueleto.
+- Fichas desde pendientes resueltos (D28): Florentina redacta, Rodrigo aprueba, y la prueba de llegada verifica que la pregunta original ahora se encuentra con su cita.
 
 **Listo cuando:** las 15 fuentes actuales y la planilla de tarifas están cargadas y aprobadas; un cambio en una fuente viva llega como resumen a Rodrigo al día siguiente.
 
@@ -160,6 +163,7 @@ Usuarias por etapa: etapa 2, la comercial; etapa 3, se suma la jefa de customer 
 
 **Alcance**
 - Memoria grupal por cliente y caso, con la regla del anexo: nada de lo privado de una persona se usa con otra.
+- Es el ciclo Evolve de KCS (D29): aprender del conjunto de casos y fichas, no de uno solo.
 - Modo 1: errores que se repiten y si son masivos.
 - Modo 2: posibles incidencias de un cliente.
 - Modo 4: pedidos de clientes que se repiten en ciertas fechas (las fechas las calcula el código).
