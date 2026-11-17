@@ -119,9 +119,9 @@ Usuarias por etapa: etapa 2, la comercial; etapa 3, se suma la jefa de customer 
 - Verificación de citas y umbral de "no sé" calculado por código.
 - Ante contradicciones del manual: muestra ambas fuentes, no elige.
 - Pregunta sin respuesta → registro de pendiente (caso, cliente, fecha) → lista para Rodrigo.
-- Hipótesis (D24): si no está en el conocimiento, puede proponer una, marcada como hipótesis. Lo que separa "con fuente" de "hipótesis" lo decide el código (verificación de citas), no el modelo.
+- Hipótesis (D24): si no está en el conocimiento, puede proponer de una a tres, como ramas para acotar el problema (cada una con qué la confirmaría), marcadas como hipótesis. Lo que separa "con fuente" de "hipótesis" lo decide el código (verificación de citas), no el modelo.
 - Registro de hipótesis (D25): cada una queda con su consulta, caso, cliente y fecha, lista para confirmarse o descartarse después.
-- Validación inicial (D23): Rodrigo revisa si las respuestas son acertadas; Florentina corrige con la usuaria lo que estaba mal.
+- Validación inicial (D23): la usuaria recibe la respuesta al tiro; Rodrigo la marca bien o mal después y Florentina corrige con la usuaria lo que estaba mal.
 - Alta de la usuaria con aviso: qué se guarda, para qué y quién ve qué.
 
 **Listo cuando:** la comercial usa Florentina una semana; Rodrigo recibe la lista de pendientes, la revisión de respuestas con su tasa de aciertos y el costo real.
