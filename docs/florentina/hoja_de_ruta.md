@@ -4,7 +4,7 @@ tipo: hoja_de_ruta
 descripcion: Índice del proyecto Florentina — etapas, sprints con alcance y criterio de término, trabajo de contenido de Rodrigo y documentos del proyecto
 version: v01
 fecha: 2026-11-13
-actualizado: 2026-11-16
+actualizado: 2026-11-17
 estado: propuesta para validación de Rodrigo
 ---
 
@@ -119,11 +119,14 @@ Usuarias por etapa: etapa 2, la comercial; etapa 3, se suma la jefa de customer 
 - Verificación de citas y umbral de "no sé" calculado por código.
 - Ante contradicciones del manual: muestra ambas fuentes, no elige.
 - Pregunta sin respuesta → registro de pendiente (caso, cliente, fecha) → lista para Rodrigo.
+- Hipótesis (D24): si no está en el conocimiento, puede proponer una, marcada como hipótesis. Lo que separa "con fuente" de "hipótesis" lo decide el código (verificación de citas), no el modelo.
+- Registro de hipótesis (D25): cada una queda con su consulta, caso, cliente y fecha, lista para confirmarse o descartarse después.
+- Validación inicial (D23): Rodrigo revisa si las respuestas son acertadas; Florentina corrige con la usuaria lo que estaba mal.
 - Alta de la usuaria con aviso: qué se guarda, para qué y quién ve qué.
 
-**Listo cuando:** la comercial usa Florentina una semana; Rodrigo recibe la lista de pendientes y el costo real.
+**Listo cuando:** la comercial usa Florentina una semana; Rodrigo recibe la lista de pendientes, la revisión de respuestas con su tasa de aciertos y el costo real.
 
-**Decisiones:** si Florentina muestra la fuente en sus respuestas; texto del aviso de alta.
+**Decisiones:** si Florentina muestra la fuente en sus respuestas; texto del aviso de alta; forma de la validación inicial (D23); cuándo no dar hipótesis (D24).
 
 ### FL5 · Memoria personal
 
@@ -133,6 +136,7 @@ Usuarias por etapa: etapa 2, la comercial; etapa 3, se suma la jefa de customer 
 - Actas por sesión y ficha de la usuaria (casos, clientes, temas donde se traba).
 - Continuidad entre conversaciones ("el caso de Kaufmann de ayer").
 - Seguimiento y validación: "¿cómo te fue con eso?" (D2), sin insistencia.
+- Cierre de hipótesis (D25): lo que la usuaria cuenta, lo que Rodrigo resuelve o un documento nuevo confirma o descarta hipótesis registradas; tasa de aciertos de las hipótesis.
 - Modo 3: detectar dónde necesita apoyo y ayudarla.
 
 **Listo cuando:** el piloto con la comercial cumple 2–4 semanas con métricas (consultas, "no sé", pendientes resueltos, costo por usuaria).

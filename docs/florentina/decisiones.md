@@ -4,7 +4,7 @@ tipo: decisiones
 descripcion: Decisiones de diseño de Florentina, asistente de operaciones de i-CAR con motor y repo propios
 version: v01
 fecha: 2026-11-13
-actualizado: 2026-11-16
+actualizado: 2026-11-17
 estado: abierto
 ---
 
@@ -45,6 +45,9 @@ Nov 13, 2026 · v01 (actualizado 16-11)
 | D20 | 16-11 | Alcance de FL0 | Florentina no necesita Estratega, desafíos, medallas ni nada del experimento. FL0 trae solo las piezas que usa; mover el M2 dentro del repo de Vera y los interruptores por pieza dejan de ser parte de Florentina. Vera no se toca |
 | D21 | 16-11 | Lo que Vera no tiene | Reconocer a distintas usuarias y estudiar patrones de problemas son piezas propias de Florentina, a diseñar desde cero (FL6 y FL7). El modelo de datos las prevé desde la base: todo va con su persona y su fecha |
 | D22 | 16-11 | Filtros de seguridad del modelo | Gemini queda con los filtros de seguridad por defecto de Google (el adaptador heredado los apagaba para Vera). Rodrigo duda que se tensen con el uso de Florentina, pero se mantienen |
+| D23 | 17-11 | Validación inicial | En los primeros tiempos se valida que las respuestas de Florentina sean acertadas. El cómo (antes o después de que la usuaria vea la respuesta, todas o una muestra, hasta cuándo) está abierto |
+| D24 | 17-11 | Hipótesis | Si la respuesta no está en el conocimiento, Florentina puede dar una hipótesis, siempre marcada como hipótesis y nunca como algo seguro. Amplía D8: además de decir que no está y registrar el pendiente |
+| D25 | 17-11 | Validar hipótesis | Las hipótesis quedan registradas y después se valida si eran acertadas o no, ante consultas posteriores. El cómo está abierto |
 
 ## Consecuencias técnicas de D6–D7
 
@@ -76,6 +79,10 @@ Contexto de la primera usuaria: la comercial es la que más lo necesita. El clie
 Política de i-CAR (Rodrigo, 13-11): las personas no se evalúan por saber más o menos, sino por saber conseguir la respuesta; nadie tiene por qué saber todo, pero sí responder bien y ágil a los clientes. El modo 3 es apoyo, no evaluación.
 
 ## Abiertas
+
+- Por D23: si la validación inicial revisa la respuesta antes de que la usuaria la vea o después (con corrección si estaba mal); si se revisan todas o una muestra; qué umbral de aciertos da por terminado el período.
+- Por D24: cuándo una hipótesis no corresponde (temas donde equivocarse cuesta caro con el cliente) y cómo se le pide a la usuaria que la confirme antes de pasársela a un cliente.
+- Por D25: quién o qué confirma una hipótesis (Rodrigo al resolver el pendiente, un documento nuevo que llega, la usuaria contando cómo le fue) y qué se hace con la tasa de aciertos.
 
 - Resolver los pendientes P1–P18 del índice y T1–T7 de alzamiento Tanner.
 - Por D18: verificar en FL2 que la planilla espejo se actualice sin que alguien la abra, antes de depender de ella.
