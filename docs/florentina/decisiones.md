@@ -49,6 +49,7 @@ Nov 13, 2026 · v01 (actualizado 16-11)
 | D24 | 17-11 | Hipótesis | Si la respuesta no está en el conocimiento, Florentina puede dar de una a tres hipótesis cuando hay ambigüedad, siempre marcadas como hipótesis y nunca como algo seguro. Funcionan como ramas para acotar el problema: cada una dice qué la confirmaría o la descartaría. Amplía D8: además de decir que no está y registrar el pendiente |
 | D25 | 17-11 | Validar hipótesis | Las hipótesis quedan registradas y después se valida si eran acertadas o no, ante consultas posteriores. El cómo está abierto |
 | D26 | 17-11 | Fin del período inicial | Lo calcula el código sobre las últimas 30 respuestas revisadas: al menos 95% de aciertos (un "no está en el manual" bien puesto cuenta como acierto), lo que queda como error solo puede ser leve, y ningún error grave en las dos últimas semanas. Cumplido, el sistema avisa y Rodrigo decide si se cierra. Después se revisa una de cada cinco respuestas y todas las hipótesis. Al revisar, Rodrigo marca cada respuesta como bien, error leve o error grave |
+| D27 | 17-11 | Error leve y grave | Grave: un dato equivocado que la usuaria podría usar con un cliente o en un trámite (requisito, documento, plazo, tarifa, paso del proceso), o una hipótesis presentada como segura. Leve: respuesta correcta pero incompleta, cita imprecisa o respuesta confusa. Decir "no está en el manual" cuando sí estaba cuenta como leve |
 
 ## Consecuencias técnicas de D6–D7
 
@@ -82,7 +83,6 @@ Política de i-CAR (Rodrigo, 13-11): las personas no se evalúan por saber más 
 ## Abiertas
 
 - Por D23: si durante el período las hipótesis se usan con clientes solo después de confirmarlas.
-- Por D26: qué cuenta como error leve y qué como grave (criterio para marcar); si un "no está en el manual" cuando sí estaba cuenta como error.
 - Por D24: cuándo una hipótesis no corresponde (temas donde equivocarse cuesta caro con el cliente) y cómo se le pide a la usuaria que la confirme antes de pasársela a un cliente.
 - Por D25: quién o qué confirma una hipótesis (Rodrigo al resolver el pendiente, un documento nuevo que llega, la usuaria contando cómo le fue) y qué se hace con la tasa de aciertos.
 
